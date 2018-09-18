@@ -7593,6 +7593,7 @@ a.underline-link {
 
 .logo img {
 	max-width: 60px;
+	max-height: 66px;
 }
 
 @media (min-width: 1600px) {
@@ -7659,7 +7660,8 @@ a.underline-link {
 	margin-left: 15px;
 	color: #3a3d44;
 	text-align: left;
-	font-size: 34px;
+	text-transform: uppercase;
+	font-size: 24px;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 500;
 }
@@ -7675,7 +7677,7 @@ a.underline-link {
 }
 
 .logo_text small {
-	font-size: 10px;
+	font-size: 8px;
 	font-weight: 250;
 	text-transform: uppercase;
 	display: block;
@@ -13885,13 +13887,13 @@ aside .widget + .widget {
 
 .page_footer .widget > h3, .page_footer
 .widget-title {
-	font-size: 30px;
+	font-size: 24px;
 }
 
 @media (min-width: 992px) {
 	.page_footer .widget > h3, .page_footer
   .widget-title {
-		margin-bottom: 42px;
+		margin-bottom: 36px;
 	}
 }
 
