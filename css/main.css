@@ -7593,7 +7593,6 @@ a.underline-link {
 
 .logo img {
 	max-width: 60px;
-	max-height: 66px;
 }
 
 @media (min-width: 1600px) {
@@ -7660,8 +7659,7 @@ a.underline-link {
 	margin-left: 15px;
 	color: #3a3d44;
 	text-align: left;
-	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 34px;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 500;
 }
@@ -7747,7 +7745,6 @@ a.underline-link {
 
 .page_header [class*="display_table_cell"] {
 	overflow: visible;
-	min-width: 300px;
 }
 
 .page_header [class*="col-"] {
@@ -7757,7 +7754,6 @@ a.underline-link {
 @media (max-width: 1599px) {
 	.page_header .header_right_buttons h5 {
 		font-size: 16px;
-		
 	}
 
 	.page_header .header_right_buttons .big {
@@ -7864,7 +7860,7 @@ a.underline-link {
 .header_mainmenu {
 	overflow: visible;
 	width: 10000px;
-	padding: 15px 15px;
+	padding: 0 15px;
 }
 
 .header_right_buttons {
@@ -11941,16 +11937,14 @@ body.active-side-header.slide-right .page_header_side {
 	.sf-menu, .sf-menu ul {
 		margin: 0;
 		padding: 0;
-		padding-right:10px;
 		list-style: none;
 	}
 
 	.sf-menu li {
-				position: relative;
+		position: relative;
 	}
 
 	.sf-menu li > ul {
-		padding-right: 20px;
 		position: absolute;
 		display: none;
 		top: 100%;
@@ -11968,7 +11962,6 @@ body.active-side-header.slide-right .page_header_side {
 	}
 
 	.sf-menu a {
-		padding-right: 20px;
 		display: block;
 		position: relative;
 	}
@@ -11980,7 +11973,7 @@ body.active-side-header.slide-right .page_header_side {
 	}
   /* menu skin */
 	.sf-menu a {
-		padding: 20px 5px 10px 0px;
+		padding: 5px 10px;
 		text-decoration: none;
 		zoom: 1;
     /* IE7 */
